@@ -1,4 +1,4 @@
-<script setup name="SubSidebar">
+<script lang="ts" setup name="SubSidebar">
 import Logo from '../Logo/index.vue'
 import SidebarItem from '../SidebarItem/index.vue'
 

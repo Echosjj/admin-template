@@ -1,5 +1,5 @@
 import vue from '@vitejs/plugin-vue'
-
+import { PluginOption } from 'vite'
 import createRestart from './restart'
 import createJsx from './jsx'
 import createHtml from './html'
@@ -15,7 +15,7 @@ import createSpritesmith from './spritesmith'
 import createBanner from './banner'
 
 export default function createVitePlugins(viteEnv, isBuild = false) {
-    const vitePlugins = [vue()]
+    const vitePlugins: (PluginOption | PluginOption[])[]  = [vue()]
     !isBuild && vitePlugins.push(createRestart())
     vitePlugins.push(createJsx())
     vitePlugins.push(createHtml(viteEnv, isBuild))

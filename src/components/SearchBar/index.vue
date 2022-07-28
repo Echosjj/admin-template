@@ -1,4 +1,4 @@
-<script setup name="SearchBar">
+<script lang="ts" setup name="SearchBar">
 const props = defineProps({
     showMore: {
         type: Boolean,

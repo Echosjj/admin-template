@@ -4,7 +4,7 @@
 }
 </route>
 
-<script setup>
+<script lang="ts" setup>
 const router = useRouter()
 
 onMounted(() => {

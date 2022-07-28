@@ -2,13 +2,13 @@ import spritesmith from 'vite-plugin-spritesmith'
 import fs from 'fs'
 
 export default function createSpritesmith(isBuild) {
-    const spriteDirnames = []
-    fs.readdirSync('src/assets/sprites').map(dirname => {
+    const spriteDirnames: any = []
+    fs.readdirSync('src/assets/sprites').map((dirname: string) => {
         if (fs.statSync(`src/assets/sprites/${dirname}`).isDirectory()) {
             spriteDirnames.push(dirname)
         }
     })
-    const plugin = []
+    const plugin: any = []
     spriteDirnames.map(item => {
         plugin.push(
             spritesmith({

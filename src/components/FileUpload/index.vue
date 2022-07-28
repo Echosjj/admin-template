@@ -1,4 +1,4 @@
-<script setup name="FileUpload">
+<script lang="ts" setup name="FileUpload">
 const props = defineProps({
     action: {
         type: String,

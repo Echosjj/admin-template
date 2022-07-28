@@ -7,7 +7,7 @@
 }
 </route>
 
-<script setup name="PersonalSetting">
+<script lang="ts" setup name="PersonalSetting">
 const router = useRouter()
 
 const form = ref({

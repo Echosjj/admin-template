@@ -1,4 +1,4 @@
-<script setup name="CascaderArea">
+<script lang="ts" setup name="CascaderArea">
 import area from '@/util/area'
 
 const props = defineProps({

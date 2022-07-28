@@ -31,7 +31,7 @@ module.exports = {
         const actions = []
         actions.push({
             type: 'add',
-            path: pathArr.length == 0 ? 'src/mock/{{moduleName}}.js' : `src/mock/${pathArr.join('.')}.{{moduleName}}.js`,
+            path: pathArr.length == 0 ? 'src/mock/{{moduleName}}.ts' : `src/mock/${pathArr.join('.')}.{{moduleName}}.ts`,
             templateFile: 'plop-templates/mock/mock.hbs',
             data: {
                 relativePath,

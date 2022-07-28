@@ -85,8 +85,8 @@ let globalSettings = {
         enable: true,
         // 版权信息配置，格式为：Copyright © [dates] <company> <beian>
         dates: '2020-2022',
-        company: 'Fantastic-admin',
-        website: 'https://fantastic-admin.netlify.app',
+        company: 'admin-template',
+        website: 'https://admin-template.netlify.app',
         beian: ''
     }
 }

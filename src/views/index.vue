@@ -9,7 +9,7 @@
 
 <template>
     <div>
-        <page-header title="欢迎使用 Fantastic-admin（基础版）">
+        <page-header title="欢迎使用 admin-template（基础版）">
             <template #content>
                 <div>
                     <div style="margin-bottom: 5px;">这是一款<b class="text-emphasis">开箱即用</b>的中后台框架，同时它也经历过数十个真实项目的技术沉淀，确保框架在开发中可落地、可使用、可维护</div>

@@ -1,4 +1,4 @@
-<script setup name="Editor">
+<script lang="ts" setup name="Editor">
 import tinymce from 'tinymce/tinymce'
 import TinymceEditor from '@tinymce/tinymce-vue'
 import 'tinymce/themes/silver/theme'

@@ -1,4 +1,4 @@
-<script setup name="ImagePreview">
+<script lang="ts" setup name="ImagePreview">
 const props = defineProps({
     src: {
         type: String,

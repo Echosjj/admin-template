@@ -8,7 +8,7 @@
 }
 </route>
 
-<script setup name="Login">
+<script lang="ts" setup name="Login">
 const { proxy } = getCurrentInstance()
 const route = useRoute(), router = useRouter()
 

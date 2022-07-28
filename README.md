@@ -1,22 +1,22 @@
 <p align="center">
-    <img src="https://hooray.gitee.io/fantastic-admin/logo.png" width="200" height="200" />
+    <img src="https://hooray.gitee.io/admin-template/logo.png" width="200" height="200" />
 </p>
 
-<h1 align="center">Fantastic-admin</h1>
+<h1 align="center">admin-template</h1>
 
 <p align="center">一款<b>开箱即用</b>的 Vue 中后台管理系统框架</p>
 
 <p align="center">
-    <a href="https://hooray.gitee.io/fantastic-admin/" target="_blank">官网</a>
-    ( <a href="https://hooray.github.io/fantastic-admin" target="_blank">备用</a> )
+    <a href="https://hooray.gitee.io/admin-template/" target="_blank">官网</a>
+    ( <a href="https://hooray.github.io/admin-template" target="_blank">备用</a> )
     <span>&nbsp;|&nbsp;</span>
     演示
-    ( <a href="https://hooray.gitee.io/fantastic-admin/vue3/basic" target="_blank">基础版</a>
-    <a href="https://hooray.gitee.io/fantastic-admin/vue3/pro" target="_blank">专业版</a> )
+    ( <a href="https://hooray.gitee.io/admin-template/vue3/basic" target="_blank">基础版</a>
+    <a href="https://hooray.gitee.io/admin-template/vue3/pro" target="_blank">专业版</a> )
     <span>&nbsp;|&nbsp;</span>
-    <a href="https://hooray.gitee.io/fantastic-admin/support.html" target="_blank">技术支持</a>
+    <a href="https://hooray.gitee.io/admin-template/support.html" target="_blank">技术支持</a>
     <span>&nbsp;|&nbsp;</span>
-    <a href="https://hooray.gitee.io/fantastic-admin/buy.html" target="_blank">购买</a>
+    <a href="https://hooray.gitee.io/admin-template/buy.html" target="_blank">购买</a>
 <p>
 
 ## 特点
@@ -44,24 +44,24 @@
 
 <table>
     <tr>
-        <td><img src="https://hooray.gitee.io/fantastic-admin/preview1.png" /></td>
-        <td><img src="https://hooray.gitee.io/fantastic-admin/preview2.png" /></td>
-        <td><img src="https://hooray.gitee.io/fantastic-admin/preview3.png" /></td>
+        <td><img src="https://hooray.gitee.io/admin-template/preview1.png" /></td>
+        <td><img src="https://hooray.gitee.io/admin-template/preview2.png" /></td>
+        <td><img src="https://hooray.gitee.io/admin-template/preview3.png" /></td>
     </tr>
     <tr>
-        <td><img src="https://hooray.gitee.io/fantastic-admin/preview4.png" /></td>
-        <td><img src="https://hooray.gitee.io/fantastic-admin/preview5.png" /></td>
-        <td><img src="https://hooray.gitee.io/fantastic-admin/preview6.png" /></td>
+        <td><img src="https://hooray.gitee.io/admin-template/preview4.png" /></td>
+        <td><img src="https://hooray.gitee.io/admin-template/preview5.png" /></td>
+        <td><img src="https://hooray.gitee.io/admin-template/preview6.png" /></td>
     </tr>
 </table>
 
 ## 支持
 
-如果觉得 Fantastic-admin 这个框架不错，或者已经在使用了，希望你可以在 **Github** 或者 **Gitee(码云)** 帮我点个 ⭐ ，这将对我是极大的鼓励。
+如果觉得 admin-template 这个框架不错，或者已经在使用了，希望你可以在 **Github** 或者 **Gitee(码云)** 帮我点个 ⭐ ，这将对我是极大的鼓励。
 
-[![star](https://img.shields.io/github/stars/hooray/fantastic-admin?style=social)](https://github.com/hooray/fantastic-admin/stargazers)
+[![star](https://img.shields.io/github/stars/hooray/admin-template?style=social)](https://github.com/hooray/admin-template/stargazers)
 
-[![star](https://gitee.com/hooray/fantastic-admin/badge/star.svg?theme=dark)](https://gitee.com/hooray/fantastic-admin/stargazers)
+[![star](https://gitee.com/hooray/admin-template/badge/star.svg?theme=dark)](https://gitee.com/hooray/admin-template/stargazers)
 
 ## 生态
 

@@ -1,4 +1,4 @@
-<script setup name="SidebarItem">
+<script lang="ts" setup name="SidebarItem">
 import SidebarItem from './index.vue'
 import { isExternalLink, resolveRoutePath } from '@/util'
 

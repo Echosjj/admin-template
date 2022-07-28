@@ -1,4 +1,4 @@
-<script setup name="MainSidebar">
+<script lang="ts" setup name="MainSidebar">
 import Logo from '../Logo/index.vue'
 
 import useSettingsStore from '@/store/modules/settings'

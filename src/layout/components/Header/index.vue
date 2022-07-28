@@ -1,4 +1,4 @@
-<script setup name="Header">
+<script lang="ts" setup name="Header">
 import Logo from '../Logo/index.vue'
 import Tools from '../Tools/index.vue'
 

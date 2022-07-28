@@ -1,4 +1,4 @@
-<script setup name="SvgIcon">
+<script lang="ts" setup name="SvgIcon">
 import { Icon } from '@iconify/vue'
 
 const props = defineProps({

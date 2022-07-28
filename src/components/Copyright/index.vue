@@ -1,4 +1,4 @@
-<script setup name="Copyright">
+<script lang="ts" setup name="Copyright">
 import useSettingsStore from '@/store/modules/settings'
 const settingsStore = useSettingsStore()
 </script>

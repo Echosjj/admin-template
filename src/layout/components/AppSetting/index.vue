@@ -1,4 +1,4 @@
-<script setup name="AppSetting">
+<script lang="ts" setup name="AppSetting">
 const { proxy } = getCurrentInstance()
 const route = useRoute()
 

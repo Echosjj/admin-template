@@ -6,7 +6,7 @@
 }
 </route>
 
-<script setup name="PersonalEditPassword">
+<script lang="ts" setup name="PersonalEditPassword">
 const route = useRoute(), router = useRouter()
 const { proxy } = getCurrentInstance()
 

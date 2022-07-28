@@ -1,4 +1,4 @@
-<script setup name="AuthAll">
+<script lang="ts" setup name="AuthAll">
 import { useAuth } from '@/util/composables'
 
 const props = defineProps({

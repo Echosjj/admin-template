@@ -1,4 +1,4 @@
-<script setup name="ImagesUpload">
+<script lang="ts" setup name="ImagesUpload">
 const props = defineProps({
     action: {
         type: String,

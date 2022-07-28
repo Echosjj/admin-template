@@ -1,4 +1,4 @@
-<script setup name="FixedActionBar">
+<script lang="ts" setup name="FixedActionBar">
 const data = ref({
     isBottom: true
 })

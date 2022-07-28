@@ -1,4 +1,4 @@
-<script setup name="Search">
+<script lang="ts" setup name="Search">
 import { deepClone, isExternalLink } from '@/util'
 
 const { proxy } = getCurrentInstance()

@@ -1,4 +1,4 @@
-<script setup name="BatchActionBar">
+<script lang="ts" setup name="BatchActionBar">
 const props = defineProps({
     data: {
         type: Array,

@@ -1,4 +1,4 @@
-<script setup name="PageHeader">
+<script lang="ts" setup name="PageHeader">
 defineProps({
     title: {
         type: String,

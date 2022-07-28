@@ -55,23 +55,23 @@ export default ({ mode, command }) => {
             ]
         },
         plugins: [
-            ...createVitePlugins(env, command === 'build'),
+            ...createVitePlugins(env, command === 'build')
             // BUG https://github.com/antfu/unplugin-vue-components/issues/361
-            {
-                name: 'dev-auto-import-element-plus',
-                transform(code, id) {
-                    if (command === 'serve' && /src\/main.js$/.test(id)) {
-                        return {
-                            code: code.replace('/* importElementPlusPlaceholder */', `
-                                import ElementPlus from 'element-plus';
-                                import 'element-plus/dist/index.css';
-                                app.use(ElementPlus);
-                            `),
-                            map: null
-                        }
-                    }
-                }
-            }
+            // {
+            //     name: 'dev-auto-import-element-plus',
+            //     transform(code, id) {
+            //         if (command === 'serve' && /src\/main.ts$/.test(id)) {
+            //             return {
+            //                 code: code.replace('/* importElementPlusPlaceholder */', `
+            //                     import ElementPlus from 'element-plus';
+            //                     import 'element-plus/dist/index.css';
+            //                     app.use(ElementPlus);
+            //                 `),
+            //                 map: null
+            //             }
+            //         }
+            //     }
+            // }
         ],
         resolve: {
             alias: {

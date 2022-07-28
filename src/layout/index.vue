@@ -1,4 +1,4 @@
-<script setup name="Layout">
+<script lang="ts" setup name="Layout">
 import Header from './components/Header/index.vue'
 import MainSidebar from './components/MainSidebar/index.vue'
 import SubSidebar from './components/SubSidebar/index.vue'
@@ -6,16 +6,15 @@ import Topbar from './components/Topbar/index.vue'
 import Search from './components/Search/index.vue'
 import AppSetting from './components/AppSetting/index.vue'
 import { isExternalLink } from '@/util'
+import useSettingsStore from '@/store/modules/settings'
+import useKeepAliveStore from '@/store/modules/keepAlive'
+import useMenuStore from '@/store/modules/menu'
 
 const { proxy } = getCurrentInstance()
 const routeInfo = useRoute(), router = useRouter()
-
-import useSettingsStore from '@/store/modules/settings'
-const settingsStore = useSettingsStore()
-import useKeepAliveStore from '@/store/modules/keepAlive'
-const keepAliveStore = useKeepAliveStore()
-import useMenuStore from '@/store/modules/menu'
 const menuStore = useMenuStore()
+const settingsStore = useSettingsStore()
+const keepAliveStore = useKeepAliveStore()
 
 const showCopyright = computed(() => {
     return typeof routeInfo.meta.copyright !== 'undefined' ? routeInfo.meta.copyright : settingsStore.copyright.enable

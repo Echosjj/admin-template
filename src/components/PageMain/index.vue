@@ -1,4 +1,4 @@
-<script setup name="PageMain">
+<script lang="ts" setup name="PageMain">
 const props = defineProps({
     title: {
         type: String,

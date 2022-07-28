@@ -1,4 +1,4 @@
-<script setup name="Topbar">
+<script lang="ts" setup name="Topbar">
 import { compile } from 'path-to-regexp'
 import Tools from '../Tools/index.vue'
 

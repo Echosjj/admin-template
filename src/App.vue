@@ -1,4 +1,4 @@
-<script setup>
+<script lang="ts" setup>
 import zhCn from 'element-plus/es/locale/lang/zh-cn'
 
 import useSettingsStore from '@/store/modules/settings'
@@ -6,22 +6,20 @@ const settingsStore = useSettingsStore()
 
 // 侧边栏主导航当前实际宽度
 const mainSidebarActualWidth = computed(() => {
-    let actualWidth = getComputedStyle(document.documentElement).getPropertyValue('--g-main-sidebar-width')
-    actualWidth = parseInt(actualWidth)
+    let actualWidth:string = getComputedStyle(document.documentElement).getPropertyValue('--g-main-sidebar-width')
     if (['head', 'single'].includes(settingsStore.menu.menuMode)) {
-        actualWidth = 0
+        actualWidth = '0'
     }
-    return `${actualWidth}px`
+    return `${actualWidth}`
 })
 
 // 侧边栏次导航当前实际宽度
 const subSidebarActualWidth = computed(() => {
-    let actualWidth = getComputedStyle(document.documentElement).getPropertyValue('--g-sub-sidebar-width')
-    actualWidth = parseInt(actualWidth)
+    let actualWidth: string = getComputedStyle(document.documentElement).getPropertyValue('--g-sub-sidebar-width')
     if (settingsStore.menu.subMenuCollapse) {
-        actualWidth = 64
+        actualWidth = '64px'
     }
-    return `${actualWidth}px`
+    return `${actualWidth}`
 })
 
 watch(() => settingsStore.app.colorScheme, () => {

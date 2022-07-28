@@ -9,7 +9,7 @@
 }
 </route>
 
-<script setup>
+<script lang="ts" setup>
 import { onBeforeRouteLeave } from 'vue-router'
 const router = useRouter()
 

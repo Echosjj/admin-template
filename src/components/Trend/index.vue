@@ -1,4 +1,4 @@
-<script setup name="Trend">
+<script lang="ts" setup name="Trend">
 const props = defineProps({
     value: {
         type: String,

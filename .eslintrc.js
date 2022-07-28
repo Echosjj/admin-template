@@ -2,6 +2,7 @@ module.exports = {
     root: true,
     env: {
         browser: true,
+        node: true,
         es6: true
     },
     globals: {
@@ -18,15 +19,19 @@ module.exports = {
     extends: [
         'plugin:vue/vue3-recommended',
         'plugin:vue/vue3-strongly-recommended',
+        'plugin:@typescript-eslint/recommended',
         'eslint:recommended',
         './.eslintrc-auto-import.json'
     ],
     parser: 'vue-eslint-parser',
     parserOptions: {
-        ecmaVersion: '2020',
+        parser: '@typescript-eslint/parser',
+        ecmaVersion: 2020,
+        sourceType: 'module',
+        jsxPragma: 'React',
         ecmaFeatures: {
-            jsx: true
-        }
+        jsx: true,
+        },
     },
     rules: {
         // 代码风格
@@ -96,6 +101,32 @@ module.exports = {
         }],
         'vue/script-indent': [2, 4, {
             'switchCase': 1
-        }]
+        }],
+        'no-use-before-define': 'off',
+        'vue/script-setup-uses-vars': 'error',
+        '@typescript-eslint/ban-ts-ignore': 'off',
+        '@typescript-eslint/explicit-function-return-type': 'off',
+        '@typescript-eslint/no-explicit-any': 'off',
+        '@typescript-eslint/no-var-requires': 'off',
+        '@typescript-eslint/no-empty-function': 'off',
+        '@typescript-eslint/no-use-before-define': 'off',
+        '@typescript-eslint/ban-ts-comment': 'off',
+        '@typescript-eslint/ban-types': 'off',
+        '@typescript-eslint/no-non-null-assertion': 'off',
+        '@typescript-eslint/explicit-module-boundary-types': 'off',
+        '@typescript-eslint/no-unused-vars': [
+            'error',
+            {
+            argsIgnorePattern: '^_',
+            varsIgnorePattern: '^_',
+            },
+        ],
+        'no-unused-vars': [
+            'error',
+            {
+              argsIgnorePattern: '^_',
+              varsIgnorePattern: '^_',
+            },
+        ]
     }
 };
